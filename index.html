@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora.basica.coed.jefferson</title>
+
+</head>
+<body>
+
+	
+<H1 align="center"></p>Calculadora Basica</H1>
+
+    <div class="container">
+        <div id="operacionRealizada">0</div>
+        <div id="txtResultado"> </div>
+        <div class="fila">
+            <button class="tecla" onclick="operador('7')">7</button>
+            <button class="tecla" onclick="operador('8')">8</button>
+            <button class="tecla" onclick="operador('9')">9</button>
+            <button class="tecla" onclick="limpiar( )">C</button>
+            <button class="tecla" onclick="operador('.')">.</button>
+        </div>
+        <div class="fila">
+            <button class="tecla" onclick="operador('4')">4</button>
+            <button class="tecla" onclick="operador('5')">5</button>
+            <button class="tecla" onclick="operador('6')">6</button>
+            <button class="tecla"  onclick="operacion('+')">+</button>
+            <button class="tecla" onclick="operacion('-')">-</button>
+        </div>
+        <div class="fila">
+            <button class="tecla"  onclick="operador('1')">1</button>
+            <button class="tecla"  onclick="operador('2')">2</button>
+            <button class="tecla"  onclick="operador('3')">3</button>
+            <button class="tecla" onclick="operacion('*')">x</button>
+            <button class="tecla" onclick="operacion('/')">÷</button>
+
+            
+        </div>
+        <div class="fila">
+            
+           <center> <button class="tecla" onclick="operador('0')">0</button>
+            <button class="tecla" onclick="calculo( )">=</button></center>
+         
+            
+        </div>
+
+
+    <script src="script.js"></script>
+</body> 
+</html>
